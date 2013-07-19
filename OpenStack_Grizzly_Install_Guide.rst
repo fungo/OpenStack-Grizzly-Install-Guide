@@ -3,7 +3,7 @@
 ==========================================================
 
 :Version: 2.0
-:Source: https://github.com/mseknibilel/OpenStack-Grizzly-Install-Guide
+:Source: https://github.com/fungo/OpenStack-Grizzly-Install-Guide
 :Keywords: Multi node, Grizzly, Quantum, Nova, Keystone, Glance, Horizon, Cinder, Swift, OpenVSwitch, KVM, Ubuntu Server 12.04 (64 bits).
 
 作者
@@ -300,12 +300,12 @@
    service keystone restart
    keystone-manage db_sync
 
-* 用 `Scripts 目录 <https://github.com/mseknibilel/OpenStack-Grizzly-Install-Guide/tree/OVS_MultiNode/KeystoneScripts>` 下的2个脚本来初始化数据库::
+* 用 `KeystoneScripts 目录 <https://github.com/fungo/OpenStack-Grizzly-Install-Guide/tree/master/KeystoneScripts>` 下的2个脚本来初始化数据库::
 
    #在执行脚本前，修改变量 **HOST_IP**, **EXT_HOST_IP**, **CINDER_HOST_IP**, **SWIFT_HOST_IP** 为相应的IP
     
-   wget https://raw.github.com/mseknibilel/OpenStack-Grizzly-Install-Guide/OVS_MultiNode/KeystoneScripts/keystone_basic.sh
-   wget https://raw.github.com/mseknibilel/OpenStack-Grizzly-Install-Guide/OVS_MultiNode/KeystoneScripts/keystone_endpoints_basic.sh
+   wget https://raw.github.com/fungo/OpenStack-Grizzly-Install-Guide/master/KeystoneScripts/keystone_basic.sh
+   wget https://raw.github.com/fungo/OpenStack-Grizzly-Install-Guide/master/KeystoneScripts/keystone_endpoints_basic.sh
    
    chmod +x keystone_basic.sh
    chmod +x keystone_endpoints_basic.sh
