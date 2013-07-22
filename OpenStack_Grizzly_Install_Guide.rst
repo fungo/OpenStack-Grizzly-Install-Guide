@@ -51,7 +51,7 @@
 
 **Note 2:** 下面是网络架构图，
 
-.. image:: http://i.imgur.com/Frsughe.jpg
+.. image:: https://raw.github.com/fungo/OpenStack-Grizzly-Install-Guide/master/images/Grizzly_MutilNode_Architecture.png
 
 
 2. MQ节点
